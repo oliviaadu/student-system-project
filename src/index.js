@@ -8,6 +8,6 @@ import ReactDOM from 'react-dom';
 // registerServiceWorker();
 
 ReactDOM.render(
-  <h2>Hello React</h2>,
+  React.createElement("h2", null, "Hello React"),
   document.getElementById("root")
 );
